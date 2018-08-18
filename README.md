@@ -1,6 +1,6 @@
 # Base
 Shell script to install a [Base Masternode](http://www.base.ninja/) on a Linux server running Ubuntu 14.04 or 16.04. Use it on your own risk.  
-This script will instal version 2.1
+This script will install version 4.0
 ***
 
 ## VPS installation:
