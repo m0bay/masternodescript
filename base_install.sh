@@ -124,15 +124,6 @@ listenonion=0
 masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
-addnode=34.216.5.55
-addnode=54.201.216.127
-addnode=167.99.233.237
-addnode=206.189.199.178
-addnode=seeder.base.ninja
-addnode=206.189.226.173
-addnode=34.219.41.164
-addnode=13.126.165.223
-addnode=52.40.179.237
 EOF
 }
 
