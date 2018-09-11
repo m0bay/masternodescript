@@ -5,7 +5,7 @@ This script will install version 4.0.1
 
 ## VPS installation:
 ```
-wget -N https://raw.githubusercontent.com/thebasechain/masternodescript/master/base_install.sh
+wget -N https://raw.githubusercontent.com/m0bay/masternodescript/master/rupx_install.sh
 bash base_install.sh
 ```
 ***
