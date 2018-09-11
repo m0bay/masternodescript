@@ -1,16 +1,16 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='base.conf'
-CONFIGFOLDER='/root/.base'
+CONFIG_FILE='rupaya.conf'
+CONFIGFOLDER='/root/.rupaya'
 COIN_PATH='/usr/local/bin/'
-COIN_DAEMON='based'
-COIN_CLI='base-cli'
-COIN_TGZ='https://s3.us-east-2.amazonaws.com/base-builds/27.1/linux-x64.tar.gz'
+COIN_DAEMON='rupayad'
+COIN_CLI='rupaya-cli'
+COIN_TGZ='https://s3-us-west-2.amazonaws.com/rupx/25.1/linux-x64.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Base'
-COIN_PORT=51555
-RPC_PORT=51554
+COIN_NAME='Rupaya'
+COIN_PORT=9050
+RPC_PORT=7050
 
 
 NODEIP=$(curl -s4 api.ipify.org)
